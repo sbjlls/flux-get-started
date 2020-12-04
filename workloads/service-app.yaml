@@ -10,5 +10,5 @@ spec:
     targetPort: 8000
   selector:
     name: app
-    colour: orange
+    colour: maroon
   type: LoadBalancer
