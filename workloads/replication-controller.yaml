@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: sbjlls/postgresql:9.5
+          image: sbjlls/postgresql:v1
           env:
             - name: POSTGRES_DB
               value: app_db
